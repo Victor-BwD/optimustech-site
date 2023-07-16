@@ -1,0 +1,220 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+  padding: 0 120px 0 120px;
+}
+
+.navbar .logo {
+  display: flex;
+  align-items: center;
+}
+
+.navbar div {
+  display: flex;
+  gap: 8px;
+}
+
+.navbar .logo img {
+  width: 30px;
+  height: 30px;
+  margin-right: 5px;
+}
+
+.navbar .logo p {
+  margin: 0;
+}
+
+.navbar ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  padding-right: 120px;
+  gap: 40px;
+}
+
+.navbar ul li {
+  margin-right: 10px;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: #333;
+}
+
+.navbar .actions {
+  display: flex;
+  align-items: center;
+}
+
+.navbar .actions a {
+  margin-left: 10px;
+  text-decoration: none;
+  color: #333;
+}
+
+.navbar .actions .cadastrar-button {
+  padding: 10px 18px 10px 18px;
+  border: 1px;
+  border-radius: 8px;
+  background-color: #8E2424;
+  color: white;
+}
+
+.intro {
+  display: flex;
+  padding: 6rem 0rem;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+  align-self: stretch;
+}
+
+.intro-container {
+  text-align: center;
+}
+
+.text-sobre {
+  height: 24px;
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  font-style: normal;
+  color: #8E2424;
+}
+
+.titulo-intro {
+  font-size: 3rem;
+font-style: normal;
+font-weight: 600;
+line-height: 3.75rem; /* 125% */
+letter-spacing: -0.06rem;
+}
+
+.text-intro {
+  width: 791px;
+  height: 83px;
+  font-weight: 400;
+  font-size: 1.25rem;
+  line-height: 1.875rem;
+  color: #667085;
+}
+
+.metricas{
+  padding: 0 90px 0 90px;
+  height: 288px;
+}
+
+.metricas .container .content ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 2rem;
+  align-self: stretch;
+  list-style-type: none;
+}
+
+.metricas .container .content ul li{
+  width: 320px;
+}
+
+.metricas .container .content ul li h2{
+  font-size: 3.75rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 4.5rem; /* 120% */
+  letter-spacing: -0.075rem;
+  color: #8E2424;
+}
+
+
+.metricas .container .content ul li .metrica-texto-1{
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.75rem; /* 155.556% */
+  color: #101828;
+}
+
+.metricas .container .content ul li .metrica-texto-2{
+  color: #667085;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5rem; /* 150% */
+}
+
+.vagas-abertas {
+  padding: 60px 100px;
+	text-align: center;
+}
+
+.vagas-abertas span {
+  font-size: 14px;
+	color: #8E2424;
+	background: rgba(142, 36, 36, 0.05);
+	border-radius: 16px;
+	padding: 4px 12px;
+  font-weight: 500;
+}
+
+.vagas-abertas h3 {
+  margin-top: 1rem;
+  font-size: 2.25rem;
+font-style: normal;
+font-weight: 600;
+line-height: 2.75rem; /* 122.222% */
+letter-spacing: -0.045rem;
+}
+
+.vagas-texto {
+  color: #667085;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.875rem; /* 150% */
+  
+}
+
+.vagas-imagem {
+  width: 100%;
+  height: 25rem;
+  flex-shrink: 0;
+  margin-top: 2rem;
+}
+
+.vagas-disponivel-titulo{
+  margin: 2em 15em;
+  text-align: left;
+}
+
+.titulo-vaga-disponivel{
+  font-size: 20px;
+  font-weight: 500;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  margin: 2em 1em 2em 1em;
+}
+
+.vagas-disponivel-container{
+  border: 2px solid #EAECF0;
+  margin: 1em;
+  padding: 1em;
+  border-radius: 16px;
+  list-style-type: none;
+}
+
+.descricao-vaga-container {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.descricao-vaga {
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5rem;
+  color: #667085;
+}
