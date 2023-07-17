@@ -163,10 +163,10 @@ letter-spacing: -0.06rem;
 .vagas-abertas h3 {
   margin-top: 1rem;
   font-size: 2.25rem;
-font-style: normal;
-font-weight: 600;
-line-height: 2.75rem; /* 122.222% */
-letter-spacing: -0.045rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 2.75rem; /* 122.222% */
+  letter-spacing: -0.045rem;
 }
 
 .vagas-texto {
@@ -217,4 +217,64 @@ letter-spacing: -0.045rem;
   font-weight: 500;
   line-height: 1.5rem;
   color: #667085;
+}
+
+.sobre-colaboradores {
+  border-radius: 1rem;
+  background: rgba(195, 25, 25, 0.03);
+  margin: 0 90px 0 90px;
+}
+
+.colaboradores-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 4rem;
+  margin-top: 6rem;
+  margin-bottom: 6rem;
+}
+
+.colaboradores-subtitulo {
+  color: #8E2424;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.25rem;
+  text-align: center;
+}
+
+.colaboradores-titulo {
+  font-size: 2.25rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 2.75rem; /* 122.222% */
+  letter-spacing: -0.045rem;
+  text-align: center;
+  width: 68rem;
+  margin-bottom: 2rem;
+}
+
+.colaboradores-container img {
+  width: 3.5rem;
+  height: 3.5rem;
+}
+
+.nome-pessoa {
+  align-self: stretch;
+  color: #101828;
+  text-align: center;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5rem;
+  width: 100%;
+  height: auto;
+  margin-block-end: 0;
+}
+
+.role-pessoa {
+  color: #667085;
+  margin-block-start: 0;
+  margin-block-end: 0;
 }
