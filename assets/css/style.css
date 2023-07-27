@@ -117,34 +117,41 @@ letter-spacing: -0.06rem;
 }
 
 .metricas .container .content ul li{
-  width: 320px;
+  flex: 1;
 }
 
-.metricas .container .content ul li h2{
+
+
+.metricas .container .content ul li h2 {
   font-size: 3.75rem;
   font-style: normal;
   font-weight: 600;
-  line-height: 4.5rem; /* 120% */
+  line-height: 4.5rem;
   letter-spacing: -0.075rem;
   color: #8E2424;
 }
 
-
-.metricas .container .content ul li .metrica-texto-1{
+.metricas .container .content ul li .metrica-texto-1 {
   font-size: 1.125rem;
   font-style: normal;
   font-weight: 500;
-  line-height: 1.75rem; /* 155.556% */
+  line-height: 1.75rem;
   color: #101828;
 }
 
-.metricas .container .content ul li .metrica-texto-2{
+.metricas .container .content ul li .metrica-texto-1:first-child {
+  margin-block-start: 0;
+}
+
+.metricas .container .content ul li .metrica-texto-2 {
   color: #667085;
   font-size: 1rem;
   font-style: normal;
   font-weight: 400;
-  line-height: 1.5rem; /* 150% */
+  line-height: 1.5rem;
 }
+
+
 
 .vagas-abertas {
   padding: 60px 100px;
@@ -323,4 +330,25 @@ letter-spacing: -0.06rem;
   box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
   color: #FFFFFF;
   margin-bottom: 2rem;
+}
+
+/* Media queries for tablets */
+@media (max-width: 1024px) {
+  .navbar {
+    padding: 0 60px;
+  }
+
+  .metricas {
+    padding: 0 60px;
+  }
+
+  .colaboradores-titulo{
+    font-size: 1.5rem;
+    width: 36rem;
+  }
+
+  .metricas .container .content ul li h2 {
+    font-size: 2rem;
+    
+  }
 }
