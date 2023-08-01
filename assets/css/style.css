@@ -87,10 +87,10 @@
 
 .titulo-intro {
   font-size: 3rem;
-font-style: normal;
-font-weight: 600;
-line-height: 3.75rem; /* 125% */
-letter-spacing: -0.06rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 3.75rem; /* 125% */
+  letter-spacing: -0.06rem;
 }
 
 .text-intro {
@@ -109,9 +109,8 @@ letter-spacing: -0.06rem;
 
 .metricas .container .content ul {
   display: flex;
-  align-items: center;
   justify-content: space-around;
-  gap: 2rem;
+  gap: 1rem;
   align-self: stretch;
   list-style-type: none;
 }
@@ -119,8 +118,6 @@ letter-spacing: -0.06rem;
 .metricas .container .content ul li{
   flex: 1;
 }
-
-
 
 .metricas .container .content ul li h2 {
   font-size: 3.75rem;
@@ -137,10 +134,6 @@ letter-spacing: -0.06rem;
   font-weight: 500;
   line-height: 1.75rem;
   color: #101828;
-}
-
-.metricas .container .content ul li .metrica-texto-1:first-child {
-  margin-block-start: 0;
 }
 
 .metricas .container .content ul li .metrica-texto-2 {
@@ -332,23 +325,8 @@ letter-spacing: -0.06rem;
   margin-bottom: 2rem;
 }
 
-/* Media queries for tablets */
-@media (max-width: 1024px) {
-  .navbar {
-    padding: 0 60px;
-  }
-
-  .metricas {
-    padding: 0 60px;
-  }
-
-  .colaboradores-titulo{
-    font-size: 1.5rem;
-    width: 36rem;
-  }
-
-  .metricas .container .content ul li h2 {
-    font-size: 2rem;
-    
+@media screen and (max-width: 1280px) {
+  .colaboradores-titulo {
+    font-size: 1.2rem;
   }
 }
