@@ -332,18 +332,18 @@
   }
 
   .navbar ul {
-    display: none; /* Hide the navigation menu on smaller screens */
+    display: none;
   }
 
   .navbar .actions {
-    flex-direction: column; /* Stack actions vertically */
+    flex-direction: column;
     align-items: flex-end;
     margin-top: 10px;
   }
 
   .navbar .actions a {
     margin-left: 0;
-    margin-bottom: 10px; /* Add some spacing between buttons */
+    margin-bottom: 10px;
   }
 
   .intro {
@@ -401,7 +401,7 @@
   }
 
   .vagas-disponivel-titulo {
-    margin: 2em 20px; /* Adjust margins */
+    margin: 2em 20px; 
     
   }
 
